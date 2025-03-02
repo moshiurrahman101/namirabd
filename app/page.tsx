@@ -1,9 +1,11 @@
-import { Button } from "@/components/ui/button";
+import { Hero } from "@/components/frontend/home/hero";
+import { ServicesCarousel } from "@/components/frontend/home/services-carousel";
 
 export default function Home() {
   return (
-    <div>
-      <Button>Click me</Button>
-    </div>
+    <main>
+      <Hero />
+      <ServicesCarousel />
+    </main>
   );
 }
