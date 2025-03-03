@@ -57,7 +57,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
-            className="grid lg:grid-cols-2 md:grid-cols-3 gap-4 mt-12"
+            className="hidden lg:grid md:grid lg:grid-cols-2 md:grid-cols-3 gap-4 mt-12"
           >
             {[
               "Catering Services",
@@ -82,7 +82,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1 }}
-            className="flex gap-4 mt-12"
+            className="flex flex-col lg:flex-row md:flex-row gap-4 mt-12"
           >
             <Button size="lg" className="text-lg px-8 py-6">
               Explore Services
