@@ -1,9 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export", // Enables static export
-  images: {
-    unoptimized: true, // Ensures images work without a backend
-  },
-};
+import { setupDevPlatform } from '@cloudflare/next-on-pages/next-dev';
 
-module.exports = nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+ if (process.env.NODE_ENV === 'development') {
+   await setupDevPlatform();
+ }
+
+export default nextConfig;
