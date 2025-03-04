@@ -22,12 +22,12 @@ import { Menu, X } from "lucide-react";
 import logo from "@/app/favicon.ico";
 
 const services = [
-  { title: "Catering", href: "/catering" },
-  { title: "Restaurant", href: "/restaurant" },
-  { title: "Event Management", href: "/event-management" },
-  { title: "Party Center", href: "/party-center" },
-  { title: "Prime Namira Accessories", href: "/accessories" },
-  { title: "Namira Corporation", href: "/corporation" },
+  { title: "Catering", href: "/services/catering" },
+  { title: "Restaurant", href: "/services/restaurant" },
+  { title: "Event Management", href: "/services/event-management" },
+  { title: "Party Center", href: "/services/party-center" },
+  { title: "Prime Namira Accessories", href: "/services/accessories" },
+  { title: "Namira Corporation", href: "/services/corporation" },
 ];
 
 const NavLink = ({
