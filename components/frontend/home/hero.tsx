@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -84,9 +85,12 @@ export function Hero() {
             transition={{ delay: 1 }}
             className="flex flex-col lg:flex-row md:flex-row gap-4 mt-12"
           >
+            <Link href="/services">
             <Button size="lg" className="text-lg px-8 py-6">
               Explore Services
             </Button>
+            </Link>
+            <Link href="/contact">
             <Button
               size="lg"
               variant="outline"
@@ -94,6 +98,7 @@ export function Hero() {
             >
               Contact Now
             </Button>
+            </Link>
           </motion.div>
         </div>
       </div>

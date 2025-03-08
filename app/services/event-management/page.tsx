@@ -14,7 +14,7 @@ export default function EventManagementPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Elevate Your Events with Namira BD
+        Event Management Service with Namira BD
       </motion.h1>
 
       {/* Hero Image */}

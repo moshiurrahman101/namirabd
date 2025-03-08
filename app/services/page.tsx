@@ -9,37 +9,37 @@ const services = [
     title: "Catering Services",
     description: "Exquisite culinary experiences for weddings, corporate events, and private parties.",
     image: "/images/catering.jpg",
-    link: "/catering",
+    link: "/services/catering",
   },
   {
     title: "Restaurant",
     description: "A premium dining experience with authentic flavors and top-quality ingredients.",
     image: "/images/restaurant.jpg",
-    link: "/restaurant",
+    link: "/services/restaurant",
   },
   {
     title: "Event Management",
     description: "Expert planning and seamless execution for unforgettable events.",
     image: "/images/events.jpg",
-    link: "/event-management",
+    link: "/services/event-management",
   },
   {
     title: "Party Venues",
     description: "Elegant and spacious venues tailored for grand celebrations.",
     image: "/images/party-center.jpg",
-    link: "/party-venues",
+    link: "/services/party-venues",
   },
   {
     title: "Premium Accessories",
     description: "High-quality event supplies and décor to enhance your special moments.",
     image: "/images/accessories.jpg",
-    link: "/premium-accessories",
+    link: "/services/premium-accessories",
   },
   {
     title: "Corporate Solutions",
     description: "Comprehensive business and corporate event services for professionals.",
     image: "/images/corporation.jpg",
-    link: "/corporate-solutions",
+    link: "/services/corporate-solutions",
   },
 ];
 
